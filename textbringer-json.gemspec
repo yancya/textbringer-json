@@ -17,6 +17,10 @@ Gem::Specification.new do |spec|
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/ShintaKoyanagi/textbringer-json"
+  spec.post_install_message = <<~MSG
+    NOTE: textbringer-json is deprecated and no longer maintained.
+    Please use textbringer-tree-sitter instead: https://github.com/yancyca/textbringer-tree-sitter
+  MSG
 
   gemspec = File.basename(__FILE__)
   spec.files = IO.popen(%w[git ls-files -z], chdir: __dir__, err: IO::NULL) do |ls|

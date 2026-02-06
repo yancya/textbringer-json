@@ -1,5 +1,7 @@
 # Textbringer Json
 
+**Deprecated:** This gem is no longer maintained. Please migrate to [textbringer-tree-sitter](https://github.com/yancyca/textbringer-tree-sitter).
+
 A Textbringer plugin that provides json mode support.
 
 ## Installation
